@@ -1,0 +1,46 @@
+:root{
+	--boton:{
+		background: blue;
+		border-radius: .5em;
+		color: white;
+		text-decoration: none;
+		padding: .5em 1em;
+	};
+}
+
+body{
+	background: red;
+	font-family: system-ui;
+}
+@custom-media --mobile (width <= 500px );
+@custom-media --tablet (width < 800px);
+.btn{
+	@apply --boton;
+	@media (--mobile){
+		background: white;
+	}
+}
+.btn2{
+	@apply --boton;
+	@media (--mobile){
+		background: red;
+	}
+}
+.btn3{
+	@apply --boton;
+	@media (--tablet){
+		background: blue;
+	}
+}
+.btn4{
+	@apply --boton;
+	@media (--tablet){
+		background: yellow;
+	}
+}
+.btn5{
+	@apply --boton;
+	@media (--mobile){
+		background: pink;
+	}
+}

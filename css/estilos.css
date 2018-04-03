@@ -1,0 +1,70 @@
+body{
+	background: red;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue;
+}
+
+.btn{
+  background: blue;
+  border-radius: .5em;
+  color: white;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.btn2{
+  background: blue;
+  border-radius: .5em;
+  color: white;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.btn3{
+  background: blue;
+  border-radius: .5em;
+  color: white;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.btn4{
+  background: blue;
+  border-radius: .5em;
+  color: white;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.btn5{
+  background: blue;
+  border-radius: .5em;
+  color: white;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+@media (max-width: 500px){
+
+	.btn{
+		background: white;
+	}
+
+	.btn2{
+		background: red;
+	}
+
+	.btn5{
+		background: pink;
+	}
+}
+
+@media (max-width: 799px){
+
+	.btn3{
+		background: blue;
+	}
+
+	.btn4{
+		background: yellow;
+	}
+}
